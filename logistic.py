@@ -1,6 +1,3 @@
-''' In this experiment, we will look at the convergences of various quantization methods and compare with that of full gradient. 
-(a) We will use N machines and give them a batch of size n/N each 
-(b) One of the N > 2 machines randomly chosen as leader acts as the collector of the quantized gradients and sends stuff back, including an estimate of y '''
 
 import argparse
 import os
