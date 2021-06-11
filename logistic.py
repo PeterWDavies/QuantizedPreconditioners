@@ -324,8 +324,6 @@ def main():
     parser.add_argument('--nseeds', type=int, default=5, metavar='nseeds', help='number of seeds (default: 1)')
     parser.add_argument('--save', default=False,action='store_true')
     
-    #Pbits is precon bits.
-    
     
     args = parser.parse_args()
     # dataset
